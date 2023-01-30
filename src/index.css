@@ -1,0 +1,86 @@
+body {
+  font-family: "Lato","Avenir Next",Arial,sans-serif;
+  margin: 0;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  height:150px;
+  width:100%;
+  background-color: black;
+  text-align: center;
+}
+
+input{
+  margin-top:50px;
+  padding:10px;
+  border-radius:5px;
+  border-color:white;
+  outline: none;
+  width: 300px;
+  font-size:medium;
+}
+.grid-container{
+  display:grid;
+  grid-template-columns:repeat(4,335px);
+  grid-auto-rows: 300px;
+  margin:5px;
+  background-color: white;
+}
+.grid-container > div{
+  background-color: rgb(53, 53, 53);
+  margin:10px;
+  padding-top: 10px;
+  color:white;
+  text-align: center;
+  border-radius: 10px;;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.card {
+  border: none;
+}
+
+.overlay {
+  position:absolute;
+  z-index:1;
+}
+
+.centered{
+  margin-left: 620px;
+  margin-top: 15px;
+}
+
+.but1{
+  background-color: rgba(30, 7, 7, 0.47);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin-left: 620px;
+  cursor: pointer;
+}
