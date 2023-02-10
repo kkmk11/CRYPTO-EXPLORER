@@ -9,6 +9,7 @@ import Signup from './Components/Signup'
 import Hello from './Components/Hello'
 import Login from './Components/Login'
 import { auth } from './Components/Firebase'
+import Wishlist from './Components/Wishlist'
 
 const App = () => {
   const [presentUser,setPresentUser]=useState(null);
@@ -32,6 +33,7 @@ const App = () => {
         <Route path='/' element={<Hello/>}/>
         <Route  path='/signup' element={<Signup/>}/>
         <Route  path='/login' element={<Login/>}/>
+        <Route  path='/wishlist' element={<Wishlist presentUser={presentUser}/>}/>
         <Route path='/home' element={presentUser ? (<Home presentUser={presentUser}/>) : <Login/> }/>
         </Routes>
       </Router>

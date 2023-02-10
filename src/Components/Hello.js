@@ -18,7 +18,7 @@ const Hello = () => {
             <li><svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} fill="white" className="bi bi-graph-up-arrow" viewBox="0 0 16 16">
                 <path fillRule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z" />
               </svg></li>&nbsp;&nbsp;
-            <li> <h5 className="text-light">Crypto Explorer</h5></li>
+            <li> <h5 className="text-light">Crypto Explorer &nbsp;<small>v2.0</small></h5></li>
           </ul>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Hello = () => {
   </div>
 </div>
 <div className='overlay'>
-<div className="centered"><font face="Verdana"size={4} color="white">Welcome To Crypto Explorer,</font><br /><font face="Times New Roman" size={6} color="white">This is a Rank and Price tracker that monitors  and <br />  Provide information about the Current details of different digital currencies and tokens.<br/>This have the details of more than 1100+ Coins and Tokens.</font></div>
+<div className="centered"><font face="Verdana"size={4} color="white">Welcome To Crypto Explorer,</font><br /><font face="Times New Roman" size={5} color="white">This is a Rank and Price tracker that monitors and Provide information<br />  about the Current details of different digital currencies and tokens.<br/><br/>This have the details of more than 1100+ Coins and Tokens.<br/>You can also add your Most Needed cryptos or tokens into your WishList.</font></div>
     <a href="https://maheshkumarkottakota.netlify.app/" target="_blank"><button className="but1"><small>Developer Info</small></button></a>
 </div>
 </div>

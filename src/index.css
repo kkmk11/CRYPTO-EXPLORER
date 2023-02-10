@@ -1,4 +1,5 @@
 body {
+  background-image: url("bg.jpg");
   font-family: "Lato","Avenir Next",Arial,sans-serif;
   margin: 0;
   background-size: cover;
@@ -18,9 +19,8 @@ code {
 }
 
 .header{
-  height:150px;
+  height:130px;
   width:100%;
-  background-color: black;
   text-align: center;
 }
 
@@ -36,12 +36,13 @@ input{
 .grid-container{
   display:grid;
   grid-template-columns:repeat(4,335px);
-  grid-auto-rows: 300px;
+  grid-auto-rows: 347px;
   margin:5px;
-  background-color: white;
+  /* background-color: white; */
 }
 .grid-container > div{
-  background-color: rgb(53, 53, 53);
+  /* background-color: rgb(99, 99, 99); */
+  background-color: rgb(0, 0, 0);
   margin:10px;
   padding-top: 10px;
   color:white;
@@ -83,4 +84,8 @@ video {
   text-decoration: none;
   margin-left: 620px;
   cursor: pointer;
+}
+
+.formu{
+  background-image: url('ls.jpg');
 }
