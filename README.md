@@ -1,4 +1,4 @@
-Website : CryptoExplorer
+Website : CryptoExplorer <br/>
 Developer : Mahesh Kumar Kottakota
 Hosted Using : Netlify ( Deployed Manually ) 
 Skills required to build this are: 
