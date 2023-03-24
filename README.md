@@ -18,7 +18,7 @@ CryptoExplorer-Version1 : Have the details of more than 1100+ Crypto coins and t
 CryptoExplorer-Version2 : Added a feature called "WishList" where we can add the coins into it so that there is no need of searching them everytime in the Explorer whenever we login to it and also added extra CSS for User Friendly Environment.<br/>
 </li>
 <li>
-CryptoExplorer-Version3 : Added a Feature called "Contact me" where the user can send me mail whenever he get stuck during the interaction with the website or found any bug in my website or want to share any idea or suggestion with me about my website and also added extra CSS User Friendly Environment.<br/>
+CryptoExplorer-Version3 : Added a Feature called "Contact me" where the user can send me mail whenever he get stuck during the interaction with the website or found any bug in my website or want to share any idea or suggestion with me about my website and also added extra CSS for User Friendly Environment.<br/>
 </li>
 </ul>
 
