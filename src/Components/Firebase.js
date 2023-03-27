@@ -4,7 +4,7 @@ import 'firebase/compat/auth';
 import "firebase/compat/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyALs9pampu0IS7sOklvrZs-QjwfpX3Wmj8",
+  apiKey: "YOUR_API_KEY",
   authDomain: "crypto-auth-c676a.firebaseapp.com",
   projectId: "crypto-auth-c676a",
   storageBucket: "crypto-auth-c676a.appspot.com",
