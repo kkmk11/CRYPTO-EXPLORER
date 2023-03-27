@@ -12,7 +12,7 @@ Skills required to build this are: <br/>
 Versions : <br/>
 <ul>
 <li>
- <u>CryptoExplorer-Version1</u> : Have the details of more than 1100+ Crypto coins and tokens at the same page with marketCap,Rank,prices in dollars and indian rupees with high Authentication Service.<br/>
+CryptoExplorer-Version1 : Have the details of more than 1100+ Crypto coins and tokens at the same page with marketCap,Rank,prices in dollars and indian rupees with high Authentication Service.<br/>
 </li>
 <li>
 CryptoExplorer-Version2 : Added a feature called "WishList" where we can add the coins into it so that there is no need of searching them everytime in the Explorer whenever we login to it and also added extra CSS for User Friendly Environment.<br/>
