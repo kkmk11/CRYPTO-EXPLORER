@@ -23,10 +23,10 @@ const Home = ({presentUser}) => {
 
     emailjs
       .sendForm(
-        "service_9qa8bxg",
-        "template_1n5ibqf",
+        "service_api",
+        "template_api",
         form.current,
-        "DVJqTGNmaU58-639g"
+        "user_api"
       )
       .then(
         (result) => {
